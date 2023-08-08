@@ -1,10 +1,10 @@
-# Exercícios API com PHP e Laravel
+# ERASbook API com PHP e Laravel
 
-Este projeto contém uma série de exercícios práticos para trabalhar com API e retorno dos dados no formato JSON usando a linguagem PHP e o framework Laravel.
+Este projeto é um site que sera proporcionado diversoso livros de inumeros temas, sendo uma plataforma moderna com mais de um tipo de assinaqtura
 
 ## Requisitos
 
-Certifique-se de ter os seguintes requisitos atendidos antes de começar a trabalhar nos exercícios:
+Certifique-se de ter os seguintes requisitos atendidos antes de começar a trabalhar no projeto:
 
 - PHP instalado
 - Composer instalado
@@ -17,11 +17,11 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
 ```
- git clone https://github.com/MIMIMINISAIA/exercicio-api.git
+ git clone https://github.com/MIMIMINISAIA/ERASbook-api.git
 ```
 2. Acesse o diretório do projeto:
 ```
-cd exercicios-api
+cd ERASbook-api
 ```
 3. inicializando o Repositorio
 ```
@@ -36,16 +36,16 @@ copy .env.example .env
 code .
 ```
 ## insomnia
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=exercicios%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMIMIMINISAIA%2Fexercicios-api%2Fmain%2FInsomnia.json)
-
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ERAS%20book%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMIMIMINISAIA%2FERASbook-api%2Fmain%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAACGBYMFUXUORKK3ULPO74DHWZGSEWDQ)
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE), o que significa que você pode utilizá-lo livremente para fins educacionais, comerciais ou pessoais.
 
 ## Contato
 
-Em caso de dúvidas, sugestões ou problemas, sinta-se à vontade para entrar em contato através do email: seu_email@example.com.
+Em caso de dúvidas, sugestões ou problemas, sinta-se à vontade para entrar em contato através do email: 
+emillybeatrizamoroso@Gmail.com
 
-**Aviso**: Certifique-se de substituir "seu_usuario" no link de clonagem e "seu_email@example.com" na seção de contato pelos valores correspondentes do seu próprio usuário do GitHub e endereço de e-mail.
+**Aviso**: Certifique-se de substituir "MIMIMINISAIA" no link de clonagem e "emillybeatrizamoroso@Gmail.com" na seção de contato pelos valores correspondentes do seu próprio usuário do GitHub e endereço de e-mail.
 
 Este é apenas um modelo básico de README.md, você pode adaptar e melhorar conforme suas necessidades específicas de projeto. Certifique-se de incluir informações importantes sobre como configurar, executar e testar os exercícios, bem como qualquer outra documentação relevante para tornar o repositório mais amigável e útil para outros desenvolvedores.
