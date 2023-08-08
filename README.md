@@ -1,4 +1,4 @@
-![Logo ERAS book](ERAS)
+![Logo ERAS book](ERAS.png)
 
 # ERASbook API com PHP e Laravel
 
