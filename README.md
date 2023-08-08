@@ -37,6 +37,15 @@ code .
 ```
 ## insomnia
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=ERAS%20book%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMIMIMINISAIA%2FERASbook-api%2Fmain%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAACGBYMFUXUORKK3ULPO74DHWZGSEWDQ)
+
+## Funcionalidades
+
+* Cadastro de [usuario](README-usuario.md)
+* Cadastro de [autor](README-autor.md)
+* Cadastro de [livros](README-livros.md)
+* Cadastro de [administrador](README-administrador.md)
+* Cadastro de [fornecedor](README-fornecedor.md)
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE), o que significa que você pode utilizá-lo livremente para fins educacionais, comerciais ou pessoais.
