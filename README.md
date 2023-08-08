@@ -1,6 +1,6 @@
 # ERASbook API com PHP e Laravel
 
-Este projeto é um site que sera proporcionado diversoso livros de inumeros temas, sendo uma plataforma moderna com mais de um tipo de assinaqtura
+Este projeto é um site que sera proporcionado diversoso livros de inumeros temas, sendo uma plataforma moderna com mais de um tipo de assinatura sem contar o modo gratis que ira proporcionar para todos um momento de lazer com seus livros favoritos, sem contar que ira poder colocar seus proprios livros fazendo com que sua carreira começe!!
 
 ## Requisitos
 
