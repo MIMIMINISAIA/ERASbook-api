@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('livros_models', function (Blueprint $table) {
             $table->id();
-            $table->string('Nome do livro')->nullable(false);
-            $table->string('Resumo')->nullable(false);
-            $table->string('cAutor')->nullable(false);
-            $table->string('Código do livro')->unique()->nullable(false);
-            $table->string('imagens')->nullable(false);
+            $table->string('nomeDoLivro')->nullable(false);
+            $table->string('resumo')->nullable(false);
+            $table->string('autor')->nullable(false);
+            $table->string('codigoDoLivro')->unique()->nullable(false);
+            $table->string('imagens')->nullable(true);
             $table->timestamps();
         });
        

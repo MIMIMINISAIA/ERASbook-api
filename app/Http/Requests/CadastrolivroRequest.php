@@ -14,7 +14,7 @@ class CadastrolivroRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -25,11 +25,10 @@ class CadastrolivroRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'nomedolivro' => 'required',
-            'Resumo' => 'required',
-            'Autor'=> 'required',
-            'Código do livro'=>'required|unique:usuarios,Código do livro',
-            'imagens'=>'required'
+            'nomeDoLivro' => 'required',
+            'resumo' => 'required',
+            'autor'=> 'required',
+            'codigoDoLivro'=>'required|unique:livros_models,codigoDoLivro'     
         ];
         
     }
@@ -43,11 +42,10 @@ class CadastrolivroRequest extends FormRequest
 
     public Function messages(){
         return [
-            'nomedolivro.required'=> 'O campo nome do livro é obrigatorio',
+            'nomeDoLivro.required'=> 'O campo nome do livro é obrigatorio',
             'resumo.required' =>'Resumo obrigatorio',
-            'Autor.required' => 'autor obrigatorio',
-            'codigodolivro.unique' => 'formato de codigo invalido',
-            'imagens.required' => 'imagem obrigatoria',
+            'autor.required' => 'autor obrigatorio',
+            'codigoDoLivro.unique' => 'formato de codigo invalido'
     
         ];
     }

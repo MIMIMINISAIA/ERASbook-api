@@ -8,12 +8,12 @@ use Illuminate\Http\Request;
 
 class CadastrolivroController extends Controller
 {
-    public function store(CadastrolivroRequest $request){
+    public function create(CadastrolivroRequest $request){
         $cadastrolivro = LivrosModel::create([
-            'Nome do livro' => $request->Nomedolivro,
-            'Resumo' => $request->Resumo,
-            'Autor'=>$request->Autor,
-            'Código do livro'=>$request->Códigodolivro,
+            'nomeDoLivro' => $request->nomeDoLivro,
+            'resumo' => $request->resumo,
+            'autor'=>$request->autor,
+            'codigoDoLivro'=>$request->codigoDoLivro,
             'imagens'=> $request->imagens,
         ]);
 
@@ -23,4 +23,6 @@ class CadastrolivroController extends Controller
             "data" => $cadastrolivro
         ],200);
     }
+
+    
 }
